@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+    <h1>TrumpVerse API Documentation</h1>
+    <p>Detailed overview of how to use the endpoints in the TrumpVerse API </p>
+</header>
+<main>
+    <section>
+        <h2>API Base URL</h2>
+        <p>The API is available at: <code>http://localhost:5191/api</code></p>
+    </section>
+
+    <section>
+        <h2>Endpoints</h2>
+
+        <article>
+            <h3>Get All Staff</h3>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Endpoint:</strong> <code>/TrumpStaff</code></p>
+            <p><strong>What it does:</strong> Retrieves a list of all staff members in the database.</p>
+        </article>
+
+        <article>
+            <h3>Get Staff by ID</h3>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Endpoint:</strong> <code>/TrumpStaff/{id}</code></p>
+            <p><strong>What it does:</strong> Fetches details for a specific staff member using their unique ID.</p>
+        </article>
+
+        <article>
+            <h3>Create New Staff</h3>
+            <p><strong>Method:</strong> POST</p>
+            <p><strong>Endpoint:</strong> <code>/TrumpStaff</code></p>
+            <p><strong>What it does:</strong> Adds a new staff member to the database. This includes choosing a profile picture from a pre-defined set.</p>
+        </article>
+
+        <article>
+            <h3>Update Staff</h3>
+            <p><strong>Method:</strong> PUT</p>
+            <p><strong>Endpoint:</strong> <code>/TrumpStaff/{id}</code></p>
+            <p><strong>What it does:</strong> Updates information about a staff member. Useful for changes to roles or updating contact info.</p>
+        </article>
+
+        <article>
+            <h3>Delete Staff</h3>
+            <p><strong>Method:</strong> DELETE</p>
+            <p><strong>Endpoint:</strong> <code>/TrumpStaff/{id}</code></p>
+            <p><strong>What it does:</strong> Removes a staff member from the database. Be careful—this action is permanent!</p>
+        </article>
+
+        <article>
+            <h3>Get Available Images</h3>
+            <p><strong>Method:</strong> GET</p>
+            <p><strong>Endpoint:</strong> <code>/FileUpload/available-images</code></p>
+            <p><strong>What it does:</strong> Returns a list of profile pictures available for staff members. These images are pre-stored on the server.</p>
+        </article>
+    </section>
+</main>
+    <script src="js/api-doc.js"></script>
+
+</body>
+</html>

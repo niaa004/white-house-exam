@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/api-documentation.html",
+      "PackagePath": "staticwebassets/api-documentation.html"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Bondi.jpg",
+      "PackagePath": "staticwebassets/images/Bondi.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Brooke-Rollins.jpg",
+      "PackagePath": "staticwebassets/images/Brooke-Rollins.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Chris-Wright.jpg",
+      "PackagePath": "staticwebassets/images/Chris-Wright.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Donald-Trump.jpg",
+      "PackagePath": "staticwebassets/images/Donald-Trump.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Doug-Collins.jpg",
+      "PackagePath": "staticwebassets/images/Doug-Collins.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Lori-Chaves.jpg",
+      "PackagePath": "staticwebassets/images/Lori-Chaves.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Noem.jpg",
+      "PackagePath": "staticwebassets/images/Noem.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Scott-Turner.jpg",
+      "PackagePath": "staticwebassets/images/Scott-Turner.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Tim-Scott.jpg",
+      "PackagePath": "staticwebassets/images/Tim-Scott.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/Vance.jpg",
+      "PackagePath": "staticwebassets/images/Vance.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/default.jpg",
+      "PackagePath": "staticwebassets/images/default.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/default1.jpg",
+      "PackagePath": "staticwebassets/images/default1.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/default2.jpg",
+      "PackagePath": "staticwebassets/images/default2.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/default3.jpg",
+      "PackagePath": "staticwebassets/images/default3.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/default4.jpg",
+      "PackagePath": "staticwebassets/images/default4.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/default5.jpg",
+      "PackagePath": "staticwebassets/images/default5.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/images/white-house.jpg",
+      "PackagePath": "staticwebassets/images/white-house.jpg"
+    },
+    {
+      "Id": "/Users/nicolaiaalberg/Desktop/trump-verse-exam/TrumpVerseAPI/wwwroot/script/api-doc.js",
+      "PackagePath": "staticwebassets/script/api-doc.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.TrumpVerseAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.TrumpVerseAPI.props",
+      "PackagePath": "build\\TrumpVerseAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.TrumpVerseAPI.props",
+      "PackagePath": "buildMultiTargeting\\TrumpVerseAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.TrumpVerseAPI.props",
+      "PackagePath": "buildTransitive\\TrumpVerseAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,67 @@
+/*staff-edit.css*/
+.staff-edit-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--primary-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.staff-edit-page h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--link-hover);
+}
+
+.staff-edit-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.staff-edit-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--link-hover);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.staff-edit-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px var(--link-hover);
+}
+
+.staff-edit-form-container {
+  flex: 1;
+}
+
+button.btn-primary {
+  background-color: var(--link-hover);
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button.btn-primary:hover {
+  background-color: var(--focus-outline);
+  transform: scale(1.05);
+}
+
+/* RESPONSIV DESIGN */
+@media (max-width: 768px) {
+  .staff-edit-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .staff-edit-image {
+    margin-bottom: 1rem;
+  }
+}

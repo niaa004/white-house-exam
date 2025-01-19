@@ -1,0 +1,25 @@
+  /*staff-create-css*/
+
+  /* RESPONSIV DESIGN */
+  @media (max-width: 768px) {
+    .staff-create-form {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .staff-form input,
+    .staff-form select,
+    .staff-form textarea {
+      flex: 1 1 100%;
+    }
+  
+    .profile-picture-options {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .profile-picture-option img {
+      width: 100px;
+      height: 100px;
+    }
+  }

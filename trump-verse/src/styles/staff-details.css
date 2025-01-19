@@ -1,0 +1,67 @@
+/*staff-details-css*/
+.staff-details-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.staff-details-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.staff-image-container {
+  flex-shrink: 0;
+}
+
+.staff-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.staff-info-container {
+  flex-grow: 1;
+}
+
+.staff-name {
+  font-size: 1.8rem;
+  color: var(--link-hover);
+  margin-bottom: 15px;
+}
+
+.staff-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.staff-info-list li {
+  margin-bottom: 10px;
+}
+
+.staff-info-list li strong {
+  color: var(--primary-text);
+}
+
+/* RESPONSIV DESIGN */
+@media (max-width: 768px) {
+  .staff-details-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .staff-image {
+    width: 150px;
+    height: 150px;
+  }
+}
