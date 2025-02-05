@@ -4,7 +4,7 @@ This exam is a web application for managing employees in the Trump administratio
 
 
 ## Technologies & Tools
-- Backend: C# (.NET Web API), Room Database (SQLite), Swagger)
+- Backend: C# (.NET Web API), Room Database (SQLite, Swagger)
 - Frontend: React, JavaScript (ES6+), HTML5, CSS3
 - UI/UX: Bootstrap, Responsive Design
 - State Management: React Hooks
